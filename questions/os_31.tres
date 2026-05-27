@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c4h5jsivei5yc"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_adk66"]
+
+[resource]
+script = ExtResource("1_adk66")
+question = "Фајл величине 25 KB (килобајт) смештен је на волумену/партицију капацитета 2 TB (терабајт). Волумен/партиција је формирана NTFS (New Technology File System) фајл системом. Величина јединице заузећа (кластера) има подразумевану вредност за дату вредност волумену/партицију. Простор/капацитет који овај фајл заузима на волумену/партицији је:"
+a = "25 KB"
+b = "26 KB"
+c = "28 KB"
+d = "30 KB"
+e = "32 KB"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

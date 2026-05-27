@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://h6y58vijpoev"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h8xv7"]
+
+[resource]
+script = ExtResource("1_h8xv7")
+question = "Пошиљалац који жели да пошаље електронски документ меилом, и да при томе буде загарантована аутентичност пошиљаоца, интегритет поруке и обезбеђена немогућност порицања одговорности, примениће:"
+a = "одложено слање у време после поноћи"
+b = "проверу документа антивирус програмом"
+c = "дигитални потпис на електронски документ"
+d = "компресију документа раровањем"
+e = "слање непромењеног документа меилом"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b0i1c3ldhrvpi"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_uimuy"]
+
+[resource]
+script = ExtResource("1_uimuy")
+question = "Ако се при пројектовању врши умањење стварне величине хиљаду пута, правилан запис је:"
+a = "1000:1"
+b = "1:1000"
+c = "1:1000:1"
+d = "1:1"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

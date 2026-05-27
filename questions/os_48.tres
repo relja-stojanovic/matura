@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bj5yyvrrjcitu"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h8xv7"]
+
+[resource]
+script = ExtResource("1_h8xv7")
+question = "На основу података који су дати у листингу наредбе приказаном на слици, реализоване у Command Prompt-у, тачно је:"
+a = "Излистани су параметри бежичног мрежног адаптера"
+b = "Мрежни адаптер је конфигурисан статички"
+c = "DHCP сервер и дифолт гејтвеј су различити уређаји"
+d = "DHCP сервер је мрежном адаптеру доделио IPv6 адресу"
+e = "На мрежном адаптеру оспособљен је TCP/IPv6 протокол"
+answer = Array[int]([0, 4])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

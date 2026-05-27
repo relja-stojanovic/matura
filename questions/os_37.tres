@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ovobcewdjx5v"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h8xv7"]
+
+[resource]
+script = ExtResource("1_h8xv7")
+question = "Имате корисника који има приступ дељеном директоријуму на мрежи. Овај
+корисник је члан следећих група са припадајућим дозволама:
+Чланство у групе			NTFS дозволе
+ПРОДАЈА МАРКЕТИНГ				Read only Full Control
+Дељене дозволе (Shared Permissions)
+ПРОДАЈА МАРКЕТИНГ				Read only Change
+Његове ефективне дозволе у погледу приступа дељеном директоријуму су:"
+a = "Full Control"
+b = "Read only"
+c = "Change"
+d = "Read and Write"
+e = "Modify"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

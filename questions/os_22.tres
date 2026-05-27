@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b4f30igbj1gq7"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ou7xv"]
+
+[resource]
+script = ExtResource("1_ou7xv")
+question = "Помоћни програм Windows оперативног система идентификује садржај који може бити
+обрисан у циљу повећања слободног простора на хард диску зове се:"
+a = "Check Disk"
+b = "Disk Defragmenter"
+c = "Disk Manager"
+d = "Disk Cleanup"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

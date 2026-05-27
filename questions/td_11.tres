@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b4wvaauk6r4fe"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_lial5"]
+
+[resource]
+script = ExtResource("1_lial5")
+question = "Ако је у заглављу техничког цртежа написана размера 1 : 100 то представља:"
+a = "величина у стварности : величина на цртежу"
+b = "величина на цртежу : величина увећања"
+c = "величина на цртежу : величина у стварности"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

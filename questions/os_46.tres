@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://k4gvtdy0vhh4"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_xapj4"]
+
+[resource]
+script = ExtResource("1_xapj4")
+question = "Из стања СПРЕМАН у стање СУСПЕНДОВАН И СПРЕМАН процес прелази из неког од следећих разлога:"
+a = "превелик број спремних процеса;"
+b = "како би се ослободила КЕШ меморија;"
+c = "експлицитно суспендовање процеса од стране корисника;"
+d = "како би се ослободила радна меморија;"
+e = " да му не би истекло додељено процесорско време (енг. time-sharing);"
+answer = Array[int]([0, 2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

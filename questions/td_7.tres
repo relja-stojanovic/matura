@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://2yksydii50av"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_omdt5"]
+
+[resource]
+script = ExtResource("1_omdt5")
+question = "Комисију за технички преглед формира:"
+a = "локална самоуправа"
+b = "инспектор рада"
+c = "инвеститор"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

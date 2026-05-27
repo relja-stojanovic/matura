@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cfcnqbi0npbc0"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h8xv7"]
+
+[resource]
+script = ExtResource("1_h8xv7")
+question = "Мрежни адаптер је повезан на рачунар и конфигурисан како је приказано на слици, а мрежним каблом је спојен на свич. У мрежи не постоји DHCP сервер. Мрежни адаптер ће добити следећу IP адресу:"
+a = "169.254.218.132"
+b = "0.0.0.0"
+c = "192.168.0.10"
+d = "172.30.30.5"
+e = "172.30.30.60"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

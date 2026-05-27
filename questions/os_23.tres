@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dyv5glpduvl3t"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ilsnw"]
+
+[resource]
+script = ExtResource("1_ilsnw")
+question = "Ви сте мрежни администратор једне организације. Рачунари раде под клијентским Windows оперативним системима. Један од корисника мисли да има проблем са мрежном картицом. Алат који можете користити да видите да ли хардвер ради исправно је:"
+a = "Device Hardware Utility"
+b = "Manage Hardware Utility"
+c = "Device Manager"
+d = "Device Configuration"
+e = "IP и MAC адресу"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

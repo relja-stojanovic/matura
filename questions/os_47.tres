@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ouo0bnejpkwc"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0tx8f"]
+
+[resource]
+script = ExtResource("1_0tx8f")
+question = "Анализом обавештења о употреби квота, које је приказано на слици, може се закључити:"
+a = "квота није подешена над диском Е за корисника Profesor"
+b = "квота над диском Е, са лимитом 60 KB, је подешена за корисника Profesor"
+c = "квота над диском Е, са лимитом 100 KB, је подешена за корисника Profesor"
+d = "квота над диском Е, са лимитом 294 KB, је подешена за корисника Profesor"
+e = "кориснику Profesor није дозвољено уписивање на диск Е ако прекорачи лимит квоте"
+f = "кориснику Profesor је дозвољено уписивање на диск Е и када прекорачи лимит квоте"
+answer = Array[int]([2, 5])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

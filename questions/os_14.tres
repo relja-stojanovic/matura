@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b4kfp5a2ifx0t"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0tx8f"]
+
+[resource]
+script = ExtResource("1_0tx8f")
+question = "Remote Desktop Connection се реализује преко следећег протокола:"
+a = "telnet"
+b = "HTTP"
+c = "DNS"
+d = "RDP"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b6qj3h6oeccir"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h2q1i"]
+
+[resource]
+script = ExtResource("1_h2q1i")
+question = "Послодавац од вас тражи да обезбедите компанијске сервере, јер безбедносна провера показује да је неке сервере могуће пинговати споља. Изабери међу понуђеним протокол чијим блокирањем помоћу firewall-a ћете онемогућити пинговање сервера:"
+a = "TLS"
+b = "SNMP"
+c = "ICMP"
+d = "ARP"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bgl82fctvgrb8"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_sbc50"]
+
+[resource]
+script = ExtResource("1_sbc50")
+question = "Понуда за извођење радова се даје на основу:"
+a = "предмера и предрачуна"
+b = "техничких услова"
+c = "техничког описа"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

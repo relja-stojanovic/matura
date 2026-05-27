@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://4li8ca2qbgm7"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_adk66"]
+
+[resource]
+script = ExtResource("1_adk66")
+question = "Следећа тврдња о карактеристикама UEFI-а није тачна:"
+a = "UEFI доноси графички интерфејс"
+b = "UEFI омогућава брже подизање оперативног система"
+c = "UEFI омогућава рад дискова већих од 2 TB"
+d = "UEFI омогућава дуал боот"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

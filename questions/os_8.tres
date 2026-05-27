@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://g8ravy1mn1tv"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_mpylk"]
+
+[resource]
+script = ExtResource("1_mpylk")
+question = "Отпуштени програмер одлучи да нанесе штету бившој компанији и приступа административном панелу компанијске веб апликације користећи програм који је током развоја апликације коришћен за потребе тестирања. Брише један кориснички налог из базе и тиме наноси велику штету компанији. Програм који је искористио за приступ компанијској веб апликацији представља:"
+a = "Rootkit"
+b = "Backdoor"
+c = "Ransomware"
+d = "Trapdoor"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

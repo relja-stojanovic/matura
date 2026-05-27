@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ua1ng5f7lfsx"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_axgvu"]
+
+[resource]
+script = ExtResource("1_axgvu")
+question = "За израду текстуалног дела користи се:"
+a = "Excel"
+b = "Word"
+c = "Powerpoint"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

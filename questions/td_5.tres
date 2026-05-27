@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dhycyrawpeguv"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ld3gs"]
+
+[resource]
+script = ExtResource("1_ld3gs")
+question = "Предмер и предрачун садржи:"
+a = "све потребне радове и материјале"
+b = "само радове са ценом рада"
+c = "све потребне радове, потребне материјале са њиховим појединачнимценама и укупан износ"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

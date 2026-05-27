@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c8vt67me6dpbq"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_adk66"]
+
+[resource]
+script = ExtResource("1_adk66")
+question = "Навести рутину (програм) који чита диск уређаје и тражи исправан главни сектор за подизање система:"
+a = "Самотестирање по укључењу (Power On Self Test - POST)"
+b = "Bootstrap loader"
+c = "SETUP"
+d = "BIOS (Basic Input/Output System)"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c1l7pguodrbhn"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ltios"]
+
+[resource]
+script = ExtResource("1_ltios")
+question = "При котирању цртежа на папиру уносе се:"
+a = "стварне мере"
+b = "мере на цртежу"
+c = "мере зависе од тога да ли је цртеж увећан или је умањен"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

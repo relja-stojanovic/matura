@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://xk8707j5k43l"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ljf4m"]
+
+[resource]
+script = ExtResource("1_ljf4m")
+question = "У мрежи на слици DHCP сервер је доделио следећу адресу рачунару PC1:
+IP: 10.10.100.1
+SM: 255.255.255.0
+DG: 10.10.100.101
+DNS: 8.8.8.8
+Корисник пријављује да са рачунара PC1 не може да приступи интернету. Да би PC1 имао излаз на интернет потребно је:"
+a = "променити адресу интерфејса Fa0/0 на рутеру"
+b = "контактирати интернет сервис провајдера јер је квар ван LAN мреже"
+c = "променити адресу мрежног адаптера DHCP сервера"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

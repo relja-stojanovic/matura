@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dnqut76oo8is7"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0tx8f"]
+
+[resource]
+script = ExtResource("1_0tx8f")
+question = "Купили сте рачунар са инсталираним Windows клијентским оперативним системом. Желите да модификујете систем тако да га прилагодите својим потребама. Међутим, желите да направите резервну копију система како бисте, ако се деси нешто непредвиђено, могли да вратите датотеке и претходна подешавања. Да бисте ово постигли потребно је да:"
+a = "Направите резервну копију ваших датотека коришћењем дугмета Back Up Files уBackup And Restore Center."
+b = "Направите слику (image) свог рачунара користећи Create а system image уBackup And Restore прозору за дијалог."
+c = "Направите слику (image) свог рачунара користећи System Repair toolНаправите претходну верзију датотека користећи Shadow Copies"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://xp1xbtfjradj"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h2q1i"]
+
+[resource]
+script = ExtResource("1_h2q1i")
+question = "На Linux радној станици кориснику треба вратити садржај резервне копије(backup-a) из датотеке pod2022.tar.gz која се налази у корисничком фолдеру backup корисника pera. Садржај резервне копије корисник жели у фолдеру podaci у оквиру свог корисничког фолдера. Команда која ће вратити податке на жељену локацију ако ваш одзивник тренутно показује pera@pc01:~/backup је:"
+a = "tar -xzvf /home/pera/backup/pod2022.tar.gz -c /home/pera/podaci"
+b = "tar -xzvf pod2022.tar.gz -C ../podaci"
+c = "tar -xzfv pod2022.tar.gz -c podaci"
+d = "tar -xzfv /pod2022.tar.gz -C /podaci"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ckayswr6bgos8"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_qxc4m"]
+
+[resource]
+script = ExtResource("1_qxc4m")
+question = "Неке матичне плоче имају по два BIOS-a из следећег разлога:"
+a = "ако дође до квара једног да други преузме његове функције"
+b = "да би матична плоча ефикасније радила"
+c = "да би се омогућило подизање два оперативна система"
+d = "да би се могао оверклоковати рачунар"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

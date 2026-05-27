@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://3xnil204gqae"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0tx8f"]
+
+[resource]
+script = ExtResource("1_0tx8f")
+question = "„Флешовањем“ BIOS/UEFI - a добија се:"
+a = "бржи рад рачунара у целини"
+b = "могућност коришћења дискова већих од 4TB"
+c = "лепши интерфејс и могућност употребе миша"
+d = "могућност рада новијих компоненти"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

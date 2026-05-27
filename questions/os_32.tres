@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://5qh4c60ie2eg"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_qxc4m"]
+
+[resource]
+script = ExtResource("1_qxc4m")
+question = "Дефинисати ставку којом ћете кориснике спречити да више пута узастопно покушавају sда се пријаве са погрешним именом логовања и/или лозинком:"
+a = "Password policy"
+b = "Security policy"
+c = "Account lockout policy"
+d = "Account lockout options"
+e = "Audit policy"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

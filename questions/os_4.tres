@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b65smc23odoyp"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h8xv7"]
+
+[resource]
+script = ExtResource("1_h8xv7")
+question = "Изабери међу понуђеним командама ону која креира дељени фолдер DataShare на фолдеру C:\\Data, притом групи Users омогућава Full Control приступ и ограничава број корисника који му истовремено могу приступити на 5 :"
+a = "net share DataShare=\"C:\\Data\" /grant:Users,read /users:5"
+b = "net share Data=\"C:\\DataShare\" /grant:Users,full /users:5"
+c = "net share DataShare=\"C:\\Data\" /grant:Users,full control /users:5"
+d = "net share DataShare=\"C:\\Data\" /grant:Users,full /users:5"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

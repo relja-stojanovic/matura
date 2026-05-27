@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bee0rvupkpsy6"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_2xqo5"]
+
+[resource]
+script = ExtResource("1_2xqo5")
+question = "Шта представља спецификација рачунарских компонената?"
+a = "прорачун цене коштања рачунарских компонената"
+b = "списак свих програма који су инсталирани"
+c = "детаљан технички опис рачунарских компонената"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

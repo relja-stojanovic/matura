@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dicclsebatddn"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_qxc4m"]
+
+[resource]
+script = ExtResource("1_qxc4m")
+question = "Максималан број примарних партиција који се може креирати на једном хард диску са MBR (Master Boot Record) табелом је:"
+a = "Једна"
+b = "Две"
+c = "Три"
+d = "Четири"
+e = "Пет"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

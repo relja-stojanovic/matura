@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://puofsj5vwg1y"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_7ofmb"]
+
+[resource]
+script = ExtResource("1_7ofmb")
+question = "Дефрагментација SSD дискова препоручује се из следећег разлога:"
+a = "као део редовног одржавања диска"
+b = "не препоручује се, јер смањује животни век диска"
+c = "препоручује се, јер убрзава рад диска"
+d = "препоручује се, због смањења потрошње електричне енергије"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

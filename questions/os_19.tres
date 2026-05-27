@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c6pgbpecfn2h7"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_mpylk"]
+
+[resource]
+script = ExtResource("1_mpylk")
+question = "Подешавање квота за диск Е, како је представљено на слици, за корисника значи:"
+a = "ако прекорачи 400MB систем ће уписати догађај о прекорачењу нивоаупозорења"
+b = "ако искористи више од 400MB биће упозорен да је достигао нивоупозорења"
+c = "ако прекорачи 400MB корисник неће моћи на даље да снима нове фајлове"
+d = "ако прекорачи 450MB корисник неће моћи на даље да снима нове фајлове"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

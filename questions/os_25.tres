@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://clv1fp1axn3wm"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0tx8f"]
+
+[resource]
+script = ExtResource("1_0tx8f")
+question = "Ви сте мрежни администратор мале компаније. У одељењу МАРКЕТИНГ правите неколико измена на рачунару који користи шеф одељења МАРКЕТИНГ. Пре него што извршите било какве промене, желите да креирате тачку повратка/враћања (Restore Point) која се може користити ако се појаве проблеми. Ручно креирање тачке враћања/повратка могуће је:"
+a = "Коришћењем System Restore utility"
+b = "Коришћењем System Properties на картици System Protection"
+c = "Коришћењем System Configuration utility"
+d = "Коришћењем Startup Repair tool"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

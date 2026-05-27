@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://40cty7vqpl8u"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_stfw5"]
+
+[resource]
+script = ExtResource("1_stfw5")
+question = "У основне елементе техничког цртежа не спадају:"
+a = "скица техничког цртежа"
+b = "оквир цртежа"
+c = "радни задатак"
+d = "заглавље"
+answer = Array[int]([0, 2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://wg03xipigv75"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_1jn7r"]
+
+[resource]
+script = ExtResource("1_1jn7r")
+question = "Предмер и предрачун су делови:"
+a = "опште документације"
+b = "графичке документације"
+c = "текстуалне документације"
+d = "нумеричке документације"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

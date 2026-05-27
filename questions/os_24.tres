@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://yivutjvf7lx2"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_khsp1"]
+
+[resource]
+script = ExtResource("1_khsp1")
+question = "Ви сте мрежни администратор једне организације. Рачунари имају идентичне хардверске конфигурације и раде под клијентским Windows оперативним системима. Инсталирали сте нови управљачки програм (driver) за мрежне адаптере. Након инсталације новог управљачког програма, запослени су пријавли да имају проблем са мрежном картицом. Алат који можете користити да бисте решили овај проблем је:"
+a = "Driver Repair Utility"
+b = "Driver Rolback"
+c = "Reverse Driver Application"
+d = "Windows Driver Compatibility tool"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

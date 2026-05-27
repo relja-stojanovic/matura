@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bp76cm65ch81e"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_pynwx"]
+
+[resource]
+script = ExtResource("1_pynwx")
+question = "На техничком цртежу саставница је део:"
+a = "радионичког цртежа"
+b = "шематског цртежа"
+c = "склопног цртежа"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

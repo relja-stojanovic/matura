@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bi6yrf7aaeutv"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_v3vve"]
+
+[resource]
+script = ExtResource("1_v3vve")
+question = "Препознати који од наведених примера представља UNC путању, односно команду заприступ дељеним ресурсима на удаљеној радној станици у оквиру локалне мреже:"
+a = "\\\\192.168.0.5\\C$"
+b = "//192.168.0.5"
+c = "http://192.168.0.1"
+d = "ping 192.168.0.1"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

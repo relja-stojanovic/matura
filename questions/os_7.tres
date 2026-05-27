@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://qfm3evwbgiv8"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ljf4m"]
+
+[resource]
+script = ExtResource("1_ljf4m")
+question = "Клијент жели да се његов Documents фолдер са постојеће локације премести на други хард диск на коме има довољно простора за рад. Да бисте то постигли у подешавањима Documents фолдера изабраћете картицу:"
+a = "General"
+b = "Sharing"
+c = "Location"
+d = "Security"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

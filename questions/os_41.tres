@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b2bct7pviu3ks"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_mpylk"]
+
+[resource]
+script = ExtResource("1_mpylk")
+question = "UEFI (Unified Extensible Firmware Interface):"
+a = "има краће време стартовања рачунара у односу на BIOS (Basic Input/Output System)"
+b = "подржава до 128 партиција"
+c = "обезбеђује непроменљиво складиштење информација о покретању система"
+d = "омогућава брисање и репрограмирање појединачних бајтова"
+e = "има могућност коришћења миша"
+f = "не подржава 64-битне управљачке програме уређаја"
+g = "подржава дискове веће од 2,2 ТБ"
+answer = Array[int]([0, 1, 4, 6])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

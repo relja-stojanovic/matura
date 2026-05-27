@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bisopacs2cstx"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_khsp1"]
+
+[resource]
+script = ExtResource("1_khsp1")
+question = "Корисник је прикључио мобилни телефон на рачунар и добио грешку да управљачки програм није успешно инсталиран. Да би приступили решавању проблема употребиће:"
+a = "Component Services"
+b = "Device Manager"
+c = "Windows Memory Diagnostics"
+d = "Data Sources"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

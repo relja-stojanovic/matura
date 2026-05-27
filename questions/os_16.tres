@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dvho5nvfvvyfm"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_moss6"]
+
+[resource]
+script = ExtResource("1_moss6")
+question = "Када корисник размишља о прављењу резервних копија (бекапа) познато му је:"
+a = "безбедан бекап је скуп, али је губитак података још скупљи"
+b = "сваки тип бекапа је бесплатан и може да се изабере по жељи"
+c = "хардвер рачунара је довољно поуздан и бекап не мора да се конфигурише"
+metadata/_custom_type_script = "uid://d11s7unngcflm"
