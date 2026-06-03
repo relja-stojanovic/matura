@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cq70tlghj3a7"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_cas0h"]
+
+[resource]
+script = ExtResource("1_cas0h")
+question = "Административни дељиви фолдери на крају имена имају ознаку $ и"
+a = "видљиви су у сваком прозору Windows Explorer-a"
+b = " видљиви су у чвору Shares Computer Management снап-ина"
+c = "може им се приступити из Network and Sharing Center"
+d = "може им се приступити када се у Run унесе UNC (Universal Naming Convention)путања"
+answer = Array[int]([1, 3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

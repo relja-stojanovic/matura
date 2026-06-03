@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dmdc8i8kteg72"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_igupo"]
+
+[resource]
+script = ExtResource("1_igupo")
+question = "У циљу процене да ли постојећа хардверска конфигурација може да се надогради новом
+генерацијом процесора, прво треба сазнати којом матичном плочом располажемо. Да би
+сазнали коју матичну плочу поседујемо, користимо неке од наведених могућности:"
+a = "у SEARCH, унети команду: motherboard"
+b = "у RUN, унети команду: msinfo32"
+c = "прочитати на кућишту рачунара информације о моделу матичне плоче."
+d = "користећи карактеристике (properties), „This PC“ иконе на десктоп-у"
+e = "користећи неки од бесплатних програма попут CPU-Z."
+f = "у command prompt-у, унети команду: wmic baseboard getproduct,Manufacturer,version,serialnumber"
+answer = Array[int]([1, 4, 5])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

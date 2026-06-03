@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dnbyn3ludwgya"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_laktd"]
+
+[resource]
+script = ExtResource("1_laktd")
+question = "Величина објекта приказаног на слици у природи је 14,5m x 10m. Објекат треба нацртати у размери 1:50. Потребно је одабрати следећу димензију папира: 
+Приказати поступак израчунавања и заокружити тачан одговор.
+Место за прорачун:
+
+14,5m = 1450cm
+1450/50 = 29cm
+10m = 1000cm
+1000/50 = 20cm"
+a = "A3"
+b = "A4"
+c = "A5"
+d = "B5"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

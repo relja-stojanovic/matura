@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c2stpg0nefymd"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_a8xt1"]
+
+[resource]
+script = ExtResource("1_a8xt1")
+question = "PCI-E (Peripheral Component Interconnect Express) је стандард магистрале
+(сабирнице) за проширење рачунара:"
+a = "обезбеђује серијски пренос података"
+b = "има почетни радни такт (стандард PCI-E 1.0) 5 GHz"
+c = "обезбеђује паралелни пренос података"
+d = "PCI-E стандард може да има више стаза за пренос података"
+e = "обезбеђује пренос података у полу-дуплексу (Half-duplex)"
+f = "PCI-E 4.0 стандард искључиво се користи за повезивање графичког адаптера."
+g = "има почетни радни такт (стандард PCI-E 1.0) 2,5 GHz"
+h = "обезбеђује пренос података у пуном-дуплексу (Full-duplex)"
+answer = Array[int]([0, 3, 6, 7])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dmwvudir31l5v"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_316d5"]
+
+[resource]
+script = ExtResource("1_316d5")
+question = "Корисник је пријавио да се апликације спорије покрећу у односу на протеклу недељу. Да бисте идентификовали које апликације су током протекле недеље могле да изазову проблем користићете:"
+a = "Performance Monitor"
+b = "Task Manager"
+c = "Resource Monitor"
+d = "Reliability Monitor"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,7 +1,16 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://06lvrxvspadr"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://kiosw60ru50y"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_b6f64"]
 
 [resource]
 script = ExtResource("1_b6f64")
+question = "Распаковали сте нови рачунар, прикључили га на извор непрекидног напајања (UPS) и
+повезали тражене периферне уређаје. По стартовању рачунара установили сте да се
+светла рачунара и вентилатори укључују, али чујете три гласна, узастопна звучна
+сигнала током покретања. Да бисте решили проблем ви ћете:"
+a = "заменити напајање"
+b = "заменити извор непрекидног напајања (UPS)"
+c = "заменити CMOS батерију"
+d = "поново поставити RАМ"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

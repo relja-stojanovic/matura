@@ -1,12 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dvax56xtdsxd8"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://vfjb0ukk23i8"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_khsp1"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_n81f2"]
 
 [resource]
-script = ExtResource("1_khsp1")
-question = "Ана поседује директоријум који би желела да подели са другим корисницима на мрежи. У њему се налази и фајл под називом baza.xlsx. Ана би хтела да обезбеди да овом фајлу може истовремено приступити само један корисник. Разлог је њено настојање да се спречи могућност да неки корисник избрише измене које је у фајлу извршио неки други корисник који је у исто време конектован на поменути фајл. Да бисте ово sобезбедили:"
-a = "Треба ограничити број корисника који могу приступити заједничкомдиректоријуму, на само једног корисника."
-b = "Атрибут фајла baza.xlsx треба конфигурисати као недељен (unshared)."
-c = "Треба конфигурисати распоред рада тако да корисници приступају поменутомфајлу у различито време."
-d = "У File Explorer – у конфигурисати заједнички директоријум, тако да корисницима не допустити приступ наведеном фајлу у offline режиму."
+script = ExtResource("1_n81f2")
+question = "Након најновијег ажурирања за Windows, корисник вам пријављује да се PDF датотеке отварају у програму Microsoft Edge уместо у програму Adobe Reader. Да бисте обезбедили отварање свих PDF датотека у програму Adobe Reader користићете:"
+a = "Network and Sharing Center"
+b = "Programs and Features"
+c = "Default Apps"
+d = "Add or Remove Program"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

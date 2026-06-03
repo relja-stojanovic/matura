@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ccp2wypv7p0m0"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://e2et6wnb14vk"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_khsp1"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_rfkxa"]
 
 [resource]
-script = ExtResource("1_khsp1")
-question = "Милан је члан групе ПРОДАЈА, која поседује пуну дозволу (Full Control) за приступ заједничком директоријуму ПРОДАЈА. Поред тога, Милан има индивидуалну дозволу Read за приступ овом директоријуму. Ипак, када покуша да приступи заједничком директоријуму ПРОДАЈА, добија поруку да му је приступ забрањен. За решење овог проблема :"
-a = "Треба избрисати Миланове индивидуалне дозволе за директоријум ПРОДАЈА."
-b = "Милану треба доделити одговарајућу дозволу за Full Control приступ задиректоријум ПРОДАЈА.."
-c = "Треба проверити да ли је Милан члан неке од група којима је експлицитноукинута дозвола за приступ директоријуму ПРОДАЈА."
-d = "Треба обрисати (уклонити) све дозволе које су додељене групи ПРОДАЈА, па их"
-answer = Array[int]([2])
+script = ExtResource("1_rfkxa")
+question = "Рачунар који администрирате има инсталиран Windows оперативни систем.и конфигурисан штампач са именом Printer1. Да бисте приступили подешавањима тог штампача са другог рачунара у мрежи користићете:"
+a = "Device Manager из Control Panel -а"
+b = "Print Management из Administrative Tools-а"
+c = "Printers & scanners из Setting app"
+d = "Devices and Printers из Control Panel -а"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cr81uvbb5dc21"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_moss6"]
+
+[resource]
+script = ExtResource("1_moss6")
+question = "Наведене су неке од Built- In група и неки Built- In кориснички налози. Препознати који од наведених објеката представљају групе:"
+a = "Administrator"
+b = "Guest"
+c = "Administrators"
+d = "Remote Desktop Users"
+e = "DefaultAccount"
+f = "Users"
+answer = Array[int]([2, 3, 5])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,13 +1,16 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://d23cttxwlfgdk"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bwp6rtjc052h2"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_sh467"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_qcicb"]
 
 [resource]
-script = ExtResource("1_sh467")
-question = "Текстуални део пројекта чине:"
-a = "основе објекта"
-b = "технички опис"
-c = "прорачуни"
-d = "технички услови"
-answer = Array[int]([1, 3])
+script = ExtResource("1_qcicb")
+question = "Блок дијаграм рачунарског ситема у ком је подигнут домен контролер, креирани су
+корисници, групе, организационе јединице и полисе, најбоље је у програму Visio
+креирати помоћу темплејта:"
+a = "Timeline"
+b = "Home Plan"
+c = "Block Diagram"
+d = "Active Directory"
+e = "Calendar"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

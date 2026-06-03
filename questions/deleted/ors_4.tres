@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ceujonftbotc3"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_5kio7"]
+
+[resource]
+script = ExtResource("1_5kio7")
+question = "Улога Domain controller сервера је да:"
+a = "пружи услугу рачунарима у мрежи, да им преведе имена домена у адресу"
+b = "пружи услугу хостинга и заштите на веб серверу"
+c = "управља корисничким налозима и групама, укључујући аутентификацију и ауторизацију корисничких налога"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

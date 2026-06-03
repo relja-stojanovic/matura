@@ -1,13 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://2qhyqp05rn4h"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://5qh4c60ie2eg"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_moss6"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_qxc4m"]
 
 [resource]
-script = ExtResource("1_moss6")
-question = "Као медијум за резервно копирање (бекап) треба одабрати:"
-a = "локални диск рачунара предвиђен само за бекап"
-b = "мрежни диск другог рачунара предвиђен само за бекап"
-c = "партицију на системском диску рачунара на ком се ради бекап"
-d = "партицију на диску на ком су и подаци који се бекапују"
-answer = Array[int]([0, 1])
+script = ExtResource("1_qxc4m")
+question = "Дефинисати ставку којом ћете кориснике спречити да више пута узастопно покушавају sда се пријаве са погрешним именом логовања и/или лозинком:"
+a = "Password policy"
+b = "Security policy"
+c = "Account lockout policy"
+d = "Account lockout options"
+e = "Audit policy"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

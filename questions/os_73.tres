@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://diky1om6ntfyx"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ta53d"]
+
+[resource]
+script = ExtResource("1_ta53d")
+question = "Рачунар са именом Stanica1 може да се повеже на бежичну мрежу под називом WiFi1 и бежичну мрежу под називом WiFi2. WiFi1 има лош сигнал и веза се често губи. WiFi2 је доступан само у одређено доба дана. WiFi2 има јачи сигнал који је поузданији од WiFi1. Морате да конфигуришете рачунар Stanica1 тако да користи WiFi2 кад год је то могуће. WiFi1 треба користити када WiFi2 није доступан. Да бисте то постигли потребно је да:"
+a = "У својствима за WiFi2, изаберите опцију Connect even if the network is notbroadcasting its name (SSID)"
+b = "У својствима за WiFi1, изаберите опцију Connect automatically when this networkis in range"
+c = " У својствима за WiFi1, изаберите опцију Enable WLAN connection settings"
+d = "У својствима за WiFi2, изаберите опцију Connect automatically when this networkis in range"
+e = "У својствима за WiFi1, изаберите опцију Look for other wireless networks whileconnected to this network"
+f = "У својствима за WiFi2, изаберите опцију Look for other wireless networks whileconnected to this network"
+answer = Array[int]([3, 4])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

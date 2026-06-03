@@ -1,7 +1,15 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cxcp6ips55fg7"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bxyvpj61r151j"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_hm2g6"]
 
 [resource]
 script = ExtResource("1_hm2g6")
+question = "Помоћу програма за проверу карактеристика хардверских компоненти рачунара
+добијени су подаци о хардверу како је представљено сликама.
+Издвој тврдњу која је за приказан случај тачна."
+a = "Рачунар има два меморијска модула, сваки по 8GB"
+b = "Рачунар има један меморијски модул од 8GB"
+c = "ар има два меморијска модула, сваки по 4GB"
+d = "Рачунар има један меморијски модул од 4GB"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

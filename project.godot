@@ -13,7 +13,7 @@ config_version=5
 config/name="Matura"
 run/main_scene="uid://bmxvp2mscagbp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://cpuhgyngf1xe2"
 
 [autoload]
 

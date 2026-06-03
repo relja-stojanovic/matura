@@ -1,20 +1,16 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ovobcewdjx5v"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://d8t7s2e6ims"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h8xv7"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_xd0fq"]
 
 [resource]
-script = ExtResource("1_h8xv7")
-question = "Имате корисника који има приступ дељеном директоријуму на мрежи. Овај
-корисник је члан следећих група са припадајућим дозволама:
-Чланство у групе			NTFS дозволе
-ПРОДАЈА МАРКЕТИНГ				Read only Full Control
-Дељене дозволе (Shared Permissions)
-ПРОДАЈА МАРКЕТИНГ				Read only Change
-Његове ефективне дозволе у погледу приступа дељеном директоријуму су:"
-a = "Full Control"
-b = "Read only"
-c = "Change"
-d = "Read and Write"
-e = "Modify"
+script = ExtResource("1_xd0fq")
+question = "Корисник вам се обраћа за помоћ у вези са лаптоп рачунаром. Након ажурирања
+Windows оперативног система, корисник више не може да користи одређене локално
+повезане уређаје, а поновно покретање није решило проблем. Да бисте решили
+проблем ви ћете:"
+a = "онемогућити услугу Windows Update"
+b = "проверите да ли постоје ажурирања"
+c = "обновити скривена ажурирања"
+d = "вратити ажурирања у претходно стање"
 answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

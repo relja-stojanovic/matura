@@ -1,7 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cwh6we0u60u1b"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bu5x50kqqwl28"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_23ax4"]
 
 [resource]
 script = ExtResource("1_23ax4")
+question = "Индикаторски LED за хард диск на кућишту рачунара светли дужи период времена, чак
+и када нема отворених апликација на рачунару. Највероватнији разлог за овакво
+понашање је:"
+a = "диск је престао са радом или је неки од каблова за његово повезивање оштећен"
+b = "постоји проблем са напонском линијом 3.3V у јединици за напајање"
+c = "постоји проблем са хард диском или нема довољно RAM меморије"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

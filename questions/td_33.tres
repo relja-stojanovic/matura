@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://rojar02jjtu1"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_r4emf"]
+
+[resource]
+script = ExtResource("1_r4emf")
+question = "Које врсте инсталација у електротехници потребно је дефинисати у техничкој документацији: "
+a = "електроенергетску инсталацију "
+b = "нумеричку документацију"
+c = "громобранску документацију"
+d = "идејну документацију"
+e = "телекомуникациону инсталацију"
+f = "сигналну документацију"
+g = "графичку документацију"
+h = "текстуалну документацију"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

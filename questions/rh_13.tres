@@ -1,7 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cab2n6o3rqupn"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://djsabdr5x5swr"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_3l63i"]
 
 [resource]
 script = ExtResource("1_3l63i")
+question = "Данашња напајања на својим излазима формирају стабилне једносмерне напоне
+вредности:"
+a = "+3 V; +5V; +10V;"
+b = "+3 V; +5V; +12V;"
+c = "+3,3 V; +5V; +10V;"
+d = "+3,3 V; +5V; +12V;"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

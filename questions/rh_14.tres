@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b4j7uaf54fpic"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dvyg0ahd4y6i5"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_4awnh"]
 
 [resource]
 script = ExtResource("1_4awnh")
+question = "Системска магистрала (сабирница) омогућује повезивање:"
+a = "RAM и ROM меморије"
+b = "KEŠ меморије и процесора"
+c = "RAM меморије и процесора"
+d = "RAM и KEŠ меморије"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

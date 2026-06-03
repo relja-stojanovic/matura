@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://0q8lk7f2of0e"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ga0nwywh4o75"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_yd1s0"]
 
 [resource]
 script = ExtResource("1_yd1s0")
+question = "DVI – I (Digital Video Interface - Integrated) стандард:"
+a = "Преноси само аналогни сигнал"
+b = "Преноси само дигитални сигнал"
+c = "Преноси, и аналогни и дигитални сигнал"
+d = "Преноси само дигитални звучни сигнал"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

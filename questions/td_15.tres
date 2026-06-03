@@ -1,11 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bikt8r7bas7v1"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://boiicl170m3x3"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_er4il"]
 
 [resource]
 script = ExtResource("1_er4il")
-question = "На приказаној шеми где је DIN дигитални улаз микрорачунара. Шта се догађа када тастер није притиснут?"
-a = "Отпорник R на дигиталном улазу обезбеђује логичку"
-b = "Отпорник R на дигиталном улазу обезбеђује логичку „1“"
-c = "Отпорник R на дигиталном улазу обезбеђује пад напона"
+question = "Приликом цртања дела техничке документације појавила се потреба за креирањем
+новог симбола. Симбол је нацртан помоћу линија и стрелица различитих дебљина. Да
+би симбол могао поново да се користи у истом фајлу потребно је:"
+a = "снимити тај фајл на радну површину"
+b = "груписати све елементе симбола"
+c = "обојити све елементе симбола црвено"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

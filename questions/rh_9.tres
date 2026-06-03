@@ -1,7 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://1vu4d7bfjvpy"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://br0dd8iikcwvs"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_vahcy"]
 
 [resource]
 script = ExtResource("1_vahcy")
+question = "Компонента рачунара која извршава софтверске инструкције и реализује аритметичке
+операције је:"
+a = "Графички адаптер"
+b = "BIOS"
+c = "КЕШ меморија"
+d = "Микропроцесор"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

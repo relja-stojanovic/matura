@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://d0fwh46nqt0un"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_72c05"]
+
+[resource]
+script = ExtResource("1_72c05")
+question = "Рачунар се приликом притискања тастера за укључивање уопште не покреће. Тестирање која компонента је узрок квара треба почети од:"
+a = "RAM меморије"
+b = "процесора"
+c = "матичне плоче"
+d = "напајања"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

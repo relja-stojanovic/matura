@@ -1,7 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dclmfh0bgqo5m"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://gk4c0yqc4ie1"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_vl0o5"]
 
 [resource]
 script = ExtResource("1_vl0o5")
+question = "Техничар повезује интерни HDD у кућиште. Кабл за податке који ће искористити за
+повезивање је:"
+a = "Molex"
+b = "SATA"
+c = "PCIЕ"
+d = "PWR_ON"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,13 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cohpevmsef255"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dlxheu0tu8vuh"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_76ejl"]
 
 [resource]
 script = ExtResource("1_76ejl")
-question = "Идејно решење треба да садржи:"
-a = "приказ планиране концепције објекта"
-b = "цртеже у размери 1:50"
-c = "шеме и детаље објекта"
-d = "врсту и намену грађевинског објекта"
-answer = Array[int]([0, 3])
+question = "На Слици 1. приказано је стање табеле а на Слици 2. сортитање које ће бити
+примењено. Након сортирања табела ће изгледати онако како је представљено на
+слици:"
+a = " Слици 3"
+b = " Слици 4"
+c = " Слици 5"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

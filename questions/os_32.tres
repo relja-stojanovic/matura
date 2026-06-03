@@ -1,14 +1,15 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://5qh4c60ie2eg"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ds74o055qnf0l"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_qxc4m"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_v616y"]
 
 [resource]
-script = ExtResource("1_qxc4m")
-question = "Дефинисати ставку којом ћете кориснике спречити да више пута узастопно покушавају sда се пријаве са погрешним именом логовања и/или лозинком:"
-a = "Password policy"
-b = "Security policy"
-c = "Account lockout policy"
-d = "Account lockout options"
-e = "Audit policy"
-answer = Array[int]([2])
+script = ExtResource("1_v616y")
+question = "Фирма у којој сте администратор запослила је 3 нова радника на одређено време. Они ће своје податке чувати на D диску. Креирали сте корисничке налоге за сваког од њих и учланили их у групу Pripravnici. Желите да обезбедите да нико од њих може да користи више од 2 GB простора на диску. Да бисте то постигли потребно је да дефинишете нову:"
+a = "меку квоту диска од 2 GB за групу Pripravnici"
+b = "чврсту квоту диска од 2 GB за групу Pripravnici"
+c = "меку квоту диска од 6 GB за групу Pripravnici"
+d = "чврсту квоту диска од 6 GB за групу Pripravnici"
+e = "меку квоту диска од 2 GB за сваког корисника"
+f = "чврсту квоту диска од 2 GB за сваког корисника"
+answer = Array[int]([5])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://sg7h0jqmc54r"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_kbv0f"]
+
+[resource]
+script = ExtResource("1_kbv0f")
+question = "Windows оперативни систем нам нуди више алата за праћење стања рачунарског система. Уочен је нешто спорији рад рачунара него иначе и потребно је у одређеном временском интервалу прикупити податке о раду кључних компоненти, како би се накнадно анализирали. Алат који нам оперативни систем нуди за ове потребе је:"
+a = "Resource Monitor."
+b = "Performance Monitor"
+c = "Disk Defragmentation"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

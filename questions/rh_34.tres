@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bhym8jsmoqa1o"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_uuw2x"]
+
+[resource]
+script = ExtResource("1_uuw2x")
+question = "Корисник вам пријављује да има проблем са каблом Cat 5. Кабл повезује рачунар са
+свичем. Када се кабл помера рачунар губи везу са мрежом. Да бисте решили проблем
+употребићете:"
+a = "маказе"
+b = "магнетизовани одвијач"
+c = "осцилоскоп"
+d = "RЈ45 конектор"
+e = "клешта за кримповање"
+answer = Array[int]([3, 4])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

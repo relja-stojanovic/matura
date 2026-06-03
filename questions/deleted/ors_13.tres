@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bp31k87sbwcxn"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_1cnnr"]
+
+[resource]
+script = ExtResource("1_1cnnr")
+question = "Да бисте уклонили Активни директоријум са контролера домена са називом DC1 потребно је да:"
+a = "покренете команду adRemove DC1"
+b = "покренете команду dcpromo, и уклоните улогу Active Directory Domain Services"
+c = "покренете команду dsrm /ad: DC1"
+d = "ресетујете администаторски налог контролера домена у конзоли Active Directory Users and Computers"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

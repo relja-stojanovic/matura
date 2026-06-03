@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://e16aik0gm64e"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://d3wwcqayf3ii3"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_s0cpm"]
 
 [resource]
 script = ExtResource("1_s0cpm")
+question = "За софтверско искључивање рачунара преко матичне плоче користи се:"
+a = "Power_Good сигнал"
+b = "5V SB сигнал"
+c = "PS_ON сигнал"
+d = "PS_OF сигнал"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

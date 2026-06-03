@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cupyyvddikxp4"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cqavcmcje41ew"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_moss6"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_wqhqr"]
 
 [resource]
-script = ExtResource("1_moss6")
-question = "На једној Windows радној станици сумњате на постојање малициозног софтвера који је додао ставку у сервисе који се стартују при покретању оперативног система. Алатка којa ће вам помоћи да проверите своју претпоставку је:"
-a = "chkdsk"
-b = "msconfig"
-c = "dxdiag"
-d = "regsvr32"
+script = ExtResource("1_wqhqr")
+question = "Алат Disk Management могуће је покренути тако што се у командној линији упише:"
+a = "Diskmanagement.mcs"
+b = "Diskmgmt.msc"
+c = "Diskmanagement.msc"
+d = "Diskmgmt.mcs"
 answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://demogv0kmbtrh"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ooc4g"]
+
+[resource]
+script = ExtResource("1_ooc4g")
+question = "Означи функције управљачке јединице процесора."
+a = "Обрађује податке аритметички"
+b = "Управљање читањем и уписом у оперативну меморију"
+c = "Управљање извршним инструкцијама RAM меморије"
+d = "Управљање радом аритеметичко-логичке јединице"
+e = "Саопштава околини резултате добијене извршењем програма"
+f = "Управљање разменом информација између оперативне меморије и аритемтичко-логичке јединице"
+answer = Array[int]([1, 3, 5])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

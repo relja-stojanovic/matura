@@ -1,13 +1,17 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bdggs0bosi5il"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://drxbw1sbldg31"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h8xv7"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_wvjfi"]
 
 [resource]
-script = ExtResource("1_h8xv7")
-question = "Запослени сте као мрежни администратор у једној компанији. Драган је доскора био запослен као шеф једног одељења, али је недавно поднео оставку. На његово место је постављен Петар. Петру желите да омогућите приступ истим ресурсима који су били на располагању неговом претходнику. Ова транзиција се најлакше (најелегантније) може реализовати тако што ћете:"
-a = "Копирати Драганов кориснички налог, па копираном налогу дати име Петар."
-b = "Отворити регистар (Windows Registry) оперативног система, у њему потражитисве податке који су унети под именом Драган и заменити их именом Петар"
-c = "Преузети власништво над свим Драгановим Ресурсима, па затим Петрудоделити пуну контролу (Full Control) над овим ресурсима"
-d = "Преименовати Драганов кориснички налог на налог који ће користити Петар"
-answer = Array[int]([3])
+script = ExtResource("1_wvjfi")
+question = "Групи Menadzeri доделили сте Full Control NTFS дозволу за датотеку
+C:\\Documents\\Projekti.doc. Премештате ову датотеку у директоријум C:\\Poverljivo, где је
+групи Menadzeri додељена
+Read дозвола.
+Корисник са корисничким именом Marko, који је члан групе Menadzeri, приступа датотеци
+C:\\Documents\\Projekti.doc. Ефективна дозвола коју Marko има над овом датотеком је:"
+a = "Full Control"
+b = "Modify"
+c = "Read"
+d = "Write"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

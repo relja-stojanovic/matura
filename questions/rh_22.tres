@@ -1,7 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://lutbs6hbf66g"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dhmasyx10350s"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ex1qh"]
 
 [resource]
 script = ExtResource("1_ex1qh")
+question = "Софтверска метода коју не можемо користити за одржавање рачунарског система је:"
+a = "дефрагментација хард диска"
+b = "ажурирање О.С."
+c = "бекаповање битних података"
+d = "замена термалне пасте"
+e = "инсталација нових драјвера"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

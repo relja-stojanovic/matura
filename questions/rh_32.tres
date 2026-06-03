@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bn37emdwj1rbc"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_p4il1"]
+
+[resource]
+script = ExtResource("1_p4il1")
+question = "Издвојити формате матичних плоча који су се користили од почетка склапања
+рачунарских конфигурација до данас:"
+a = "Mini IBM"
+b = "АTX"
+c = "LPX"
+d = "IBM-X"
+e = "WDX"
+answer = Array[int]([1, 2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bcp700gouehyv"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_js1d1"]
+
+[resource]
+script = ExtResource("1_js1d1")
+question = "Администрирате мрежу у предузећу. Запослени у одељењу Продаје жале се да се апликација са којом раде споро учитава. Користили сте Performance Monitor на једном од рачунара и установили да постоји велика активност чврстог диска. Да бисте били сигурни да диск представља уско грло у систему, морате да, користећи Performance Monitor, анализирате рад и:"
+a = "процесора"
+b = "мреже"
+c = "меморије"
+d = "апликација"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

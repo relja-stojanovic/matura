@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://1v6qu6ljfbeo"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_vbv44"]
+
+[resource]
+script = ExtResource("1_vbv44")
+question = "Дабисте проверили да је рек орман уземљен користићете:"
+a = "тестер каблова"
+b = "осцилоскоп"
+c = "мултиметар"
+d = "волтметар"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

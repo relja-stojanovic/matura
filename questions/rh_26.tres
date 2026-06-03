@@ -1,7 +1,19 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cvumsthv24on8"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dp35qy77lsmri"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_3nnv4"]
 
 [resource]
 script = ExtResource("1_3nnv4")
+question = "Школа набавља рачунаре за кабинет у коме се држе вежбе из оперативних система. У
+настави се интензивно користе виртуелне машине са оперативним системима који нису
+старији од 5 година. Свако одељење има свој налог на рачунару и свој скуп виртуелних
+машина за наставу. Meђу понуђеним конфигурацијама изабери ону која најбоље
+одговара захтевима које нови лабораторијски рачунар треба да задовољи уз разумни
+утрошак новца(подразумева се да је саставни део конфигурације и матична плоча која
+може да подржи наведене компоненте али овде није наведена)."
+a = "2xIntel Xeon E-2200,128GB TruDDR4 ECC, 960GB SATA SSD, 2TB SATA HDD"
+b = "Intel Core i5-10500(Intel UHD Graphics 630), 16GB DDR4, 500GB SSD"
+c = "Intel Core i5-10500, 4GB DDR4, 6x NVIDIA GTX 1070 GPU, 250GB SATA SSD"
+d = "Intel Core i3-10100(Intel UHD Graphics 630), 4GB DDR4, 320GB SATA HDD"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

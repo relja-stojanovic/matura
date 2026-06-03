@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dnqut76oo8is7"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://j2u5qx22u4hl"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0tx8f"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_vdq45"]
 
 [resource]
-script = ExtResource("1_0tx8f")
-question = "Купили сте рачунар са инсталираним Windows клијентским оперативним системом. Желите да модификујете систем тако да га прилагодите својим потребама. Међутим, желите да направите резервну копију система како бисте, ако се деси нешто непредвиђено, могли да вратите датотеке и претходна подешавања. Да бисте ово постигли потребно је да:"
-a = "Направите резервну копију ваших датотека коришћењем дугмета Back Up Files уBackup And Restore Center."
-b = "Направите слику (image) свог рачунара користећи Create а system image уBackup And Restore прозору за дијалог."
-c = "Направите слику (image) свог рачунара користећи System Repair toolНаправите претходну верзију датотека користећи Shadow Copies"
-answer = Array[int]([1])
+script = ExtResource("1_vdq45")
+question = "Отварате Disk Management на рачунару који сервисирате и затичете ситуацију као на слици.
+
+Да бисте креирали нову партицију на диску 0:"
+a = "смањићете волумен C"
+b = "компресоваћете волумен C"
+c = "конвертоваћете Disk 0 у диманички диск"
+d = "креираћете и иницијализовати виртуални хард диск (VHD)"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,17 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://r0nng7slt027"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://xp1xbtfjradj"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ljf4m"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h2q1i"]
 
 [resource]
-script = ExtResource("1_ljf4m")
-question = "Рачунари PC1 и PC2 повезани су у мрежу преко свича. Додељене су им адресе:
-PC1: IP: 10.11.11.1 PC2: IP: 10.11.11.2
-SM: 255.255.255.128 SM: 255.255.255.128
-DG: 10.11.11.100 DG: 10.11.11.100
-Када се са PC1 пингује PC2, пинг је успешан. Када се са PC2 пингује PC1 пинг није успешан, за сва четири пакета пинга добија се одговор Request timed out. Узрок тога што не ради пинг са PC2 на PC1 је:"
-a = "унутар firewall-a на PC1 је конфигурисано правило које блокира ICMPпакете који долазе на рачунар"
-b = "мрежни кабл којим је PC1 повезан на свич је неисправан"
-c = "IP адресе овим рачунарима нису добро додељене"
-d = "унутар firewall-a на PC2 је конфигурисано правило које блокира ICMP пакете којидолазе на рачунар"
-e = "мрежни кабл којим је PC2 повезан на свич је неисправан"
+script = ExtResource("1_h2q1i")
+question = "На Linux радној станици кориснику треба вратити садржај резервне копије(backup-a) из датотеке pod2022.tar.gz која се налази у корисничком фолдеру backup корисника pera. Садржај резервне копије корисник жели у фолдеру podaci у оквиру свог корисничког фолдера. Команда која ће вратити податке на жељену локацију ако ваш одзивник тренутно показује pera@pc01:~/backup је:"
+a = "tar -xzvf /home/pera/backup/pod2022.tar.gz -c /home/pera/podaci"
+b = "tar -xzvf pod2022.tar.gz -C ../podaci"
+c = "tar -xzfv pod2022.tar.gz -c podaci"
+d = "tar -xzfv /pod2022.tar.gz -C /podaci"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

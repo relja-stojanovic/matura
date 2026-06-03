@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://d2f2aefw2du4u"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_l1or0"]
+
+[resource]
+script = ExtResource("1_l1or0")
+question = "Објекат на слици је нацртан у размери 1:100. Међу понуђеним одговорима заокружити онај који представља дужину котне линије на слици. Приказати поступак израчунавања и заокружити тачан одговор.
+Место за прорачун:
+3,2m = 320cm
+320/100 = 3,2cm."
+a = "3,2cm"
+b = "0,32cm"
+c = "32cm"
+d = "0,32m"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

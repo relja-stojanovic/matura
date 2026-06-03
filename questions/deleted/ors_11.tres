@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c4ws8xwwloesj"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0vbao"]
+
+[resource]
+script = ExtResource("1_0vbao")
+question = "Дабисте конфигурисали Windows оперативни систем да повремено и аутоматски проверава најновији драјвер за видео картицу користићете:"
+a = "Device Manager"
+b = "Windows installer"
+c = "Programs and Features"
+d = "Windows Update"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

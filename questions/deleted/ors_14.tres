@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cr6tcbueduxk5"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_cdtr7"]
+
+[resource]
+script = ExtResource("1_cdtr7")
+question = "Предузеће у коме радите има контролер домена. Корисник покушава да се пријави на домен и добија поруку: \"This user account has expired. Ask your administrator to reactivate the account.\" Да бисте омогућили кориснику да се пријави на домен:"
+a = "измените својства корисничког налога да бисте подесили налог да никада неистиче"
+b = "измените својства корисничког налога да бисте продужили време пријаве надомен"
+c = "измените подразумевану политику домена да бисте смањили трајањезакључаног налога."
+d = "измените својства корисничког налога како бисте подесили да лозинка никадане истиче"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,17 +1,16 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ba6e8mr6vcndd"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bljdwnyemufkl"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ucnyr"]
 
 [resource]
 script = ExtResource("1_ucnyr")
-question = "Сваки пројекат појединачне области састоји се од следећих делова:"
-a = "општа документација"
-b = "идејна документација"
-c = "графичка документација"
-d = "текстуална документација"
-e = "нумеричка документација"
-f = "финансијска документација"
-g = "припремна документација"
-h = "завршна документација"
-answer = Array[int]([0, 2, 3, 4])
+question = "Техничко лице које израђује документацију попунило је Excel документ о подацима
+радника у фирми. Након одређеног времена примећена је штампарска грешка: радник
+је написано рандик на више места у документу. Најједноставније је преправити грешку
+опцијом у програму:"
+a = "Sort & Filter"
+b = "Find & Select"
+c = "Mеrge & Center"
+d = "Wrap Text"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

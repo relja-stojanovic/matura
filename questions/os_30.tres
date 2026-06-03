@@ -1,20 +1,12 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dqsv104amr0qx"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://byi4c1inn1k3d"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_mpylk"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ytbcr"]
 
 [resource]
-script = ExtResource("1_mpylk")
-question = "Корисник је пријавио да са PC1 не може да приступи Интернету. Извршењем наредби за тестирање везе добија се: 2
-
-PC1>ipconfig /all PC1>ping 142.13.18.6
-Physical Address.......: 00D0.BC9B.08A3 Pinging 142.13.18.6 with 32 bytes of data:
-IP Address................: 192.168.0.100
-Subnet Mask..............: 255.255.255.0 Request timed out. Default Gateway........: 192.168.0.1 Request timed out. DNS Servers.............: 142.13.18.6 Request timed out. Request timed out. Ping statistics for 142.13.18.6:
-Packets: Sent = 4, Received = 0, Lost =
-4 (100% loss)
-Да би се решио проблем потребно је:"
-a = "променити адресу default gateway-a на PC1"
-b = "променити subnet mask на PC1"
-c = "променити адресу DNS-a на PC1"
-answer = Array[int]([2])
+script = ExtResource("1_ytbcr")
+question = "Главна функцију веб сервера је:"
+a = "чување датотека и контрола приступа корисника"
+b = "подешавање личних поштанских сандучића и календара"
+c = "додела IP адреса и услуга штампања"
+d = "хостовање почетних страница и пословних портала"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

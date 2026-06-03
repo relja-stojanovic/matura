@@ -1,15 +1,12 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cr81uvbb5dc21"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cejnbq2grm2o7"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_moss6"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_sx5mm"]
 
 [resource]
-script = ExtResource("1_moss6")
-question = "Наведене су неке од Built- In група и неки Built- In кориснички налози. Препознати који од наведених објеката представљају групе:"
-a = "Administrator"
-b = "Guest"
-c = "Administrators"
-d = "Remote Desktop Users"
-e = "DefaultAccount"
-f = "Users"
-answer = Array[int]([2, 3, 5])
+script = ExtResource("1_sx5mm")
+question = "Позвани сте да конфигуришете бежичну везу за кућну канцеларију. Корисник жели да спречи друге да приступе бежичној мрежи. Корисник има мали број уређаја на мрежи и не жели да памти компликовану лозинку. Да бисте испунили корисникове захтеве ви ћете:"
+a = "омогућити MAC filtering"
+b = "онемогућите SSID broadcast"
+c = "доделити статичке IP адресе"
+d = "искључити Content filtering"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

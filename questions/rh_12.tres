@@ -1,7 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bbmvgs6jiquun"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://ddqpdohcmvnk2"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_2k4gg"]
 
 [resource]
 script = ExtResource("1_2k4gg")
+question = "Видео систем персоналног рачунара чине следеће компоненте:
+"
+a = "Монитор, графички адаптер и микропроцесор"
+b = "Микропроцесор, графички адаптер и управљачки програми"
+c = " Монитор и графички адаптер"
+d = "Графички адаптер, монитор и управљачки програми"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

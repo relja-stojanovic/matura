@@ -1,7 +1,15 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cq2r8l8bbrtjw"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://m1fq7neta752"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_l31j6"]
 
 [resource]
 script = ExtResource("1_l31j6")
+question = "Приликом прегледа неисправног лаптопа установили сте да постоји проблем са једном
+од компоненти лаптопа. Лаптоп није повезан са екстерним извором напајања. Прва
+ствар коју ћете урадити пре него што отворите кућиште лаптопа је да:"
+a = "откачите дисплеј"
+b = "уклоните батерију"
+c = "извадите тастатуру"
+d = "искључите бежични адаптер"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

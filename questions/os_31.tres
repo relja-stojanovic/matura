@@ -1,14 +1,12 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c4h5jsivei5yc"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dgme1lmligg55"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_adk66"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_62l2m"]
 
 [resource]
-script = ExtResource("1_adk66")
-question = "Фајл величине 25 KB (килобајт) смештен је на волумену/партицију капацитета 2 TB (терабајт). Волумен/партиција је формирана NTFS (New Technology File System) фајл системом. Величина јединице заузећа (кластера) има подразумевану вредност за дату вредност волумену/партицију. Простор/капацитет који овај фајл заузима на волумену/партицији је:"
-a = "25 KB"
-b = "26 KB"
-c = "28 KB"
-d = "30 KB"
-e = "32 KB"
-answer = Array[int]([2])
+script = ExtResource("1_62l2m")
+question = "Подешавате рачунар на коме треба да имате два оперативна система Windows 11 и Windows 10 који су инсталирани на посебним партицијама. Да бисте обезбедили да се подразумевано увек покреће Windows 11:"
+a = "покренућете програм Bcdedit.exe са опцијом /default  Odgovor 1. je tačan."
+b = "покренућете програм Bcdedit.exe са опцијом /bootcd"
+c = "креираћете Boot.ini фајл на коренском (root) директоријуму Windows 10партиције"
+d = "креираћете Boot.ini фајл на коренском (root) директоријуму Windows 7партиције"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

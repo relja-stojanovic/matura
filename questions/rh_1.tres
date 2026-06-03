@@ -1,7 +1,12 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b6xrbtkbvhfed"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cr5ep01v8hg4e"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_7kayc"]
 
 [resource]
 script = ExtResource("1_7kayc")
+question = "Приликом уклањања процесора са матичне плоче, први корак је:"
+a = "откључати подножје процесора"
+b = "уклонити хладњак са матичне плоче"
+c = "уклонити процесор са матичне плоче"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

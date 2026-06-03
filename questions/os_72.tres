@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bl7itdrdq16hy"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_0ndng"]
+
+[resource]
+script = ExtResource("1_0ndng")
+question = "Анализом података о рачунару који су показани на слици може се закључити:"
+a = "Рачунар користи UEFI boot loader"
+b = "Користи се енкрипција за заштиту података"
+c = "Рачунар има два хард диска"
+d = "Рачунар користи SSD диск капацитета 256GB"
+answer = Array[int]([0, 1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

@@ -1,16 +1,16 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b2bct7pviu3ks"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://xk8707j5k43l"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_mpylk"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ljf4m"]
 
 [resource]
-script = ExtResource("1_mpylk")
-question = "UEFI (Unified Extensible Firmware Interface):"
-a = "има краће време стартовања рачунара у односу на BIOS (Basic Input/Output System)"
-b = "подржава до 128 партиција"
-c = "обезбеђује непроменљиво складиштење информација о покретању система"
-d = "омогућава брисање и репрограмирање појединачних бајтова"
-e = "има могућност коришћења миша"
-f = "не подржава 64-битне управљачке програме уређаја"
-g = "подржава дискове веће од 2,2 ТБ"
-answer = Array[int]([0, 1, 4, 6])
+script = ExtResource("1_ljf4m")
+question = "У мрежи на слици DHCP сервер је доделио следећу адресу рачунару PC1:
+IP: 10.10.100.1
+SM: 255.255.255.0
+DG: 10.10.100.101
+DNS: 8.8.8.8
+Корисник пријављује да са рачунара PC1 не може да приступи интернету. Да би PC1 имао излаз на интернет потребно је:"
+a = "променити адресу интерфејса Fa0/0 на рутеру"
+b = "контактирати интернет сервис провајдера јер је квар ван LAN мреже"
+c = "променити адресу мрежног адаптера DHCP сервера"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

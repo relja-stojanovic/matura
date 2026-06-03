@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b7xb73x2u6v2p"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_51fk7"]
+
+[resource]
+script = ExtResource("1_51fk7")
+question = "На електричној шеми ако се положај потенциометра P (вредност потенциометра 1КOhm) из положаја 1 пребаци у положај  2. Шта се дешава са светлећом диодом D?"
+a = "диода светли јачим интезитетом"
+b = "интезитет светлости диоде зависи од програма у микроконтролеру"
+c = "диода неће светлети"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

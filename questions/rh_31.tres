@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b5nwt511waxsx"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_yw5qw"]
+
+[resource]
+script = ExtResource("1_yw5qw")
+question = "Типови конектора који се могу употребити за повезивање екстерног складишног простора
+на рачунар су:"
+a = "Thunderbolt"
+b = "SATA"
+c = "eSATA"
+d = "DVI"
+e = "HDMI"
+answer = Array[int]([0, 2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

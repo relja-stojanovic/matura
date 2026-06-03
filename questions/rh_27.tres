@@ -1,7 +1,59 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://caxo1dfict738"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://do0h6tu1urdvc"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_pchlq"]
 
 [resource]
 script = ExtResource("1_pchlq")
+question = "За потребе запослених треба обезбедити конфигурацију са 8 GB радне меморије. На
+располагању имате процесор и матичну плочу са следећим карактеристикама:
+Процесор Матична
+плоча
+
+Максимална величина
+меморије коју подржава 64 GB Подржани типови
+
+меморија DDR4-SDRAM
+
+Подржани типови
+меморија
+
+DDR3L-SDRAM и
+DDR4-SDRAM
+
+Број меморијских
+слотова
+
+
+
+Радни тактови
+меморије које
+подржава
+
+1333,1600, 2133 и
+2400 MHz
+
+Брзина системске
+магистрале
+
+0,469 ns (нано
+секунда)
+
+- -
+
+Максимална
+величина меморије
+коју подржава
+
+32 GB
+
+На основу задатих карактеристика процесора и матичне плоче треба одабрати
+меморијски модул водећи рачуна о компатибилности и оптималним перформанасама
+одабране компоненте."
+a = "8 GB DDR3L-SDRAM 1333 MHz"
+b = "8 GB DDR4-SDRAM 1600 MHz"
+c = "8 GB DDR4-SDRAM 2400 MHz"
+d = "8 GB DDR3L-SDRAM 1600 MHz"
+e = "8 GB DDR4-SDRAM 2133 MHz"
+f = "8 GB DDR3L-SDRAM 2133 MHz"
+answer = Array[int]([4])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

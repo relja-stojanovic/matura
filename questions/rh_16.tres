@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bo6dom7efpxo6"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b15he6c4k7r4g"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_prwhc"]
 
 [resource]
 script = ExtResource("1_prwhc")
+question = "Корисник жели да набави рачунар за обављање једнонитног задатка што је брже
+могуће. Најважнија карактеристика процесора за овај захтев је:"
+a = "брзина процесора"
+b = "hyperthreading"
+c = "брзина вентилатора"
+d = "број језгара"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

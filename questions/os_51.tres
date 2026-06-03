@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://1w5douf4uaoe"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ptnl3"]
+
+[resource]
+script = ExtResource("1_ptnl3")
+question = "Конфигуришете рачунар у предузећу у коме радите. Подешавања мрежне картице приказана су на слици:
+Од надређеног сте добили упутство да овом рачунару омогућите да комуницира само у оквиру локалне мреже. Да бисте ово постигли ви ћете:"
+a = "избрисати подешавања за мрежни пролаз"
+b = "избрисати подешавања за примарни DNS сервер"
+c = "променити мрежну маску на 255.255.255.0."
+d = "променити мрежну маску на 255.255.255.192"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

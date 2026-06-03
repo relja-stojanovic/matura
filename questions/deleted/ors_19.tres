@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://tnbsefe2wifi"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_jchce"]
+
+[resource]
+script = ExtResource("1_jchce")
+question = "Да бисте осигурали да можете да у потпуности вратите рачунар у оперативно стање у случају квара хардвера, ви ћете:"
+a = "Направити диск за опоравак система"
+b = "Направити резервну копију стања система"
+c = "Направити USB диск за опоравак"
+d = "Направити потпуну резервну копију система рачунара"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

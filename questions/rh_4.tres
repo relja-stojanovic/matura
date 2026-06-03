@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://t6tchqgurt87"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cjqtg6cq85rju"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_iy8rd"]
 
 [resource]
 script = ExtResource("1_iy8rd")
+question = "Алат којим можемо дијагностиковати кварове различитих делова рачунарског система
+је:"
+a = "Hirens boot"
+b = "Mini tool Partition Wizard"
+c = "Driver booster"
+d = "HD tune"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

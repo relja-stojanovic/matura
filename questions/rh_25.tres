@@ -1,7 +1,15 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cbcq6q2iwy5wa"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c6202lvdmpa7j"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_4htc3"]
 
 [resource]
 script = ExtResource("1_4htc3")
+question = "Ласерски колор штампач се користи за штампање фотографија, али корисници се жале
+да штампање траје сувише дуго. Компонента штампача чијом надоградњом би се
+најефикасније постигло убрзање штампања фотографија је:"
+a = "мрежна картица"
+b = "меморија"
+c = "кертриџ"
+d = "напајање"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

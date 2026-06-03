@@ -1,16 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://xk8707j5k43l"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://d4bgct3otpcc1"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ljf4m"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_p8l68"]
 
 [resource]
-script = ExtResource("1_ljf4m")
-question = "У мрежи на слици DHCP сервер је доделио следећу адресу рачунару PC1:
-IP: 10.10.100.1
-SM: 255.255.255.0
-DG: 10.10.100.101
-DNS: 8.8.8.8
-Корисник пријављује да са рачунара PC1 не може да приступи интернету. Да би PC1 имао излаз на интернет потребно је:"
-a = "променити адресу интерфејса Fa0/0 на рутеру"
-b = "контактирати интернет сервис провајдера јер је квар ван LAN мреже"
-c = "променити адресу мрежног адаптера DHCP сервера"
+script = ExtResource("1_p8l68")
+question = "Рачунар који администрирате има проблема са повезивањем на мрежу. Да бисте
+пронашли адресу било ког рачунара са којим рачунар има активну TCP везу ви ћете:"
+a = "Из Windows Administrative Tools-а, отворићете Performance Monitor"
+b = "У Control Panel-у, отворићете Network and Internet и селектовати Network and Sharing Center"
+c = "Из Windows Administrative Tools-а, отворићете Resource Monitor"
+d = "Отворићете Update and Security, изабрати Windows Security и селектоватиFirewall and Network protection"
 metadata/_custom_type_script = "uid://d11s7unngcflm"

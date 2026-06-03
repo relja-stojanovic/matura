@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://crcv8eiuicvoq"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b2tj33v6pkj32"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_eemci"]
 
 [resource]
 script = ExtResource("1_eemci")
-question = "На приказаној шеми где је DIN (дигитални улаз микроконтролера). Шта се догађа када тастер није притиснут?"
-a = "Отпорник R на дигиталном улазу обезбеђује логичку „0“"
-b = "Отпорник R на дигиталном улазу обезбеђује логичку „1“"
-c = "Отпорник R на дигиталном улазу обезбеђује пад напона"
-answer = Array[int]([1])
+question = "Адреса ћелије у којој је Диода P6KE6,8CA је:"
+a = "4C"
+b = "3.C"
+c = "C4"
+d = "24"
+e = "10"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

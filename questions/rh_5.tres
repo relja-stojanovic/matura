@@ -1,7 +1,15 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c1c0xc63s1v6n"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b0wydqkadagja"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_kwret"]
 
 [resource]
 script = ExtResource("1_kwret")
+question = "Систем има инсталирана два меморијска модула која раде на 1333 MHz. Техничар је
+потом додао два меморијска модула која раде на 1600 MHz, а која су испоручена након
+рекламације. Највероватнији исход ове интервенције биће:"
+a = "рачунар се неће подизати."
+b = "рачунар ће се повремено замрзнути."
+c = "комплетна меморија ће радити на 1333 MHz."
+d = "комплетна меморија ће радити на 1600 MHz"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

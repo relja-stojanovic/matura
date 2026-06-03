@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://d23cttxwlfgdk"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_sh467"]
+
+[resource]
+script = ExtResource("1_sh467")
+question = "Текстуални део пројекта чине:"
+a = "основе објекта"
+b = "технички опис"
+c = "прорачуни"
+d = "технички услови"
+answer = Array[int]([1, 3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

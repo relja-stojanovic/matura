@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://2qhyqp05rn4h"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_moss6"]
+
+[resource]
+script = ExtResource("1_moss6")
+question = "Као медијум за резервно копирање (бекап) треба одабрати:"
+a = "локални диск рачунара предвиђен само за бекап"
+b = "мрежни диск другог рачунара предвиђен само за бекап"
+c = "партицију на системском диску рачунара на ком се ради бекап"
+d = "партицију на диску на ком су и подаци који се бекапују"
+answer = Array[int]([0, 1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

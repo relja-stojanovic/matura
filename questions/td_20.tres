@@ -1,20 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dmj4lbl5j55gd"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dxubihknp2761"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_tnox3"]
 
 [resource]
 script = ExtResource("1_tnox3")
-question = "Eлектронски документ јесте документ настао изворно у електронској форми, у
-одговарајућем електронском формату који је електронски потписан квалификованим
-електронским потписом. Заокружи одговарајуће електронске формате који се односе на
-електронски документ."
-a = ".pdf"
-b = ".dwg"
-c = ".dot"
-d = ".png"
-e = ".dwf"
-f = ".dwfx"
-g = ".ppt"
-h = ".jpg"
-answer = Array[int]([0, 1, 4, 5])
+question = "Један од наслова није се појавио унутар садржаја који је аутоматски генерисан за документ у Word-у. Узрок тог проблема је:"
+a = "Аутоматско генерисање садржаја не ради исправно"
+b = "Фонт одабраних наслова није добро форматиран"
+c = "Наслов који недостаје није форматиран као наслов"
+d = "Положај наслова унутар странице није добро одабран"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

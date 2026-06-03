@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dip3iggbi1sr5"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_kdhh1"]
+
+[resource]
+script = ExtResource("1_kdhh1")
+question = "Школа је пре више од две године добила десет лаптопова. Корисник једног од њих је
+пријавио да један лаптоп не ради. Добио је упозорење да је капацитет батерије мали,
+прикључио је пуњач и није обратио пажњу да ли индикација о напајању приказује пуњење
+батерије. Након неколико минута лаптоп се искључио, остао без свих индикација да има
+било какво напајање. Поступак откривања узрока проблема започињете:"
+a = "Пријавом проблема надлежном сервису"
+b = "Претпоставком да је отказао хард диск"
+c = "Претпоставком да је отказао пуњач батерије"
+d = "Prikjlučenjem punjača drugog laptopa"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

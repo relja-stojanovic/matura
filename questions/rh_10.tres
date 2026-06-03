@@ -1,7 +1,16 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bc0viulnea76x"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://506upe3txpvx"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_f8bt1"]
 
 [resource]
 script = ExtResource("1_f8bt1")
+question = "Стандард намењен графичком адаптеру код савремених рачунарских конфигурација
+назива се:
+*PCI-E (Peripheral Component Interconnect Expres)"
+a = "PCI-E x1"
+b = "PCI-E x4"
+c = "PCI-E x8"
+d = "PCI-E x16"
+e = "PCI-E x24"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

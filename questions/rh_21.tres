@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://csamnj1671fc5"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://10jru7k0rkia"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_ofijy"]
 
 [resource]
 script = ExtResource("1_ofijy")
+question = "Метода којом не можемо извршити хардверско чишћење рачунара је:"
+a = "замена термалне пасте"
+b = "издувавање вентилатора"
+c = "дефрагментација хард диска"
+d = "брисање прашине"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

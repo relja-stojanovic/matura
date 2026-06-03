@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b0id6ir3ucebl"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c50a2evxu7jj4"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_tj3co"]
 
 [resource]
 script = ExtResource("1_tj3co")
+question = "Програм који се може искористити за проверу исправности хард диска је:"
+a = "Recuva"
+b = "Acronis"
+c = "HD tune"
+d = "Rufus"
+answer = Array[int]([2])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

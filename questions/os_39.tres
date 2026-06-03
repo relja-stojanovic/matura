@@ -1,12 +1,13 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cncyhi5kx5qsg"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cupyyvddikxp4"]
 
-[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_h2q1i"]
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_moss6"]
 
 [resource]
-script = ExtResource("1_h2q1i")
-question = "Радник Милан Марковић на свом рачунару PC1 користи корисничко име milan. Овај налог је члан групе Nastavnici. За фолдер zadaci подешене су дозволе као на слици. Дозволе за групе које нису приказане су наслеђене са системског диска. Када Милан Марковић са другог рачунара покуша да приступи фолдеру zadaci, Милан:"
-a = "ће моћи да отвори фолдер и мења садржај фолдера"
-b = "неће моћи да отвори фолдер"
-c = "ће моћи да отвори, али неће моћи да мења садржај фолдера"
-answer = Array[int]([2])
+script = ExtResource("1_moss6")
+question = "На једној Windows радној станици сумњате на постојање малициозног софтвера који је додао ставку у сервисе који се стартују при покретању оперативног система. Алатка којa ће вам помоћи да проверите своју претпоставку је:"
+a = "chkdsk"
+b = "msconfig"
+c = "dxdiag"
+d = "regsvr32"
+answer = Array[int]([1])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

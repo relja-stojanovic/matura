@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cohpevmsef255"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_76ejl"]
+
+[resource]
+script = ExtResource("1_76ejl")
+question = "Идејно решење треба да садржи:"
+a = "приказ планиране концепције објекта"
+b = "цртеже у размери 1:50"
+c = "шеме и детаље објекта"
+d = "врсту и намену грађевинског објекта"
+answer = Array[int]([0, 3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

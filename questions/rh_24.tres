@@ -1,7 +1,16 @@
-[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c08nhpcxa7t4k"]
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://c4o03c5ux6qfs"]
 
 [ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_s51o0"]
 
 [resource]
 script = ExtResource("1_s51o0")
+question = "Помоћу програма за проверу карактеристика хардверских компоненти рачунара
+добијени су подаци о хардверу како је представљено сликама.
+
+RAM овог рачунара могуће је надоградити на 12GB на следећи начин:"
+a = "Рачунар има један меморијски слот и у њега уместо постојећег модула требаубацити меморијски модул од 12GB"
+b = "Рачунар има два меморијска слота и у њих уместо постојећих модула требаубацити два модула од 6GB"
+c = "Рачунар има два меморијска слота и у један од њих уместо постојећег модулатреба убацити модул од 4GB"
+d = "Рачунар има два меморијска слота и у један од њих уместо постојећег модулатреба убацити модул од 8GB"
+answer = Array[int]([3])
 metadata/_custom_type_script = "uid://d11s7unngcflm"

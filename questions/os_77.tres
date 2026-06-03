@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cj4il2jesj2yv"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://Question.gd" id="1_cv7qi"]
+
+[resource]
+script = ExtResource("1_cv7qi")
+question = "Желите да направите нови simplе (прост) волумен на новом нелоцираном простору на диску. Отварате Disk Management и констатујете да на том нелоцираном простору имате могућност само да направите нову партицију. Закључујете да не можете да извршите задатак јер:"
+a = "диск има лоше секторе"
+b = "диск је основни, а не динамички"
+c = "диск има мање од 32 GB нелоцираног простора"
+d = "на диску се налазе шифрирани подаци"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"
