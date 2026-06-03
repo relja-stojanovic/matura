@@ -4,4 +4,12 @@
 
 [resource]
 script = ExtResource("1_v7geo")
+question = "Након промовисања сервера у контролер домена, у новој шуми, постојећи администраторски налог (Administrator) ће бити члан следећих група:"
+a = "Backup Operators"
+b = "Server Operators"
+c = "Administrators"
+d = "Domain Users"
+e = "Schema Admins"
+f = "Protected Users"
+answer = Array[int]([2, 4])
 metadata/_custom_type_script = "uid://d11s7unngcflm"
