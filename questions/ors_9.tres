@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://w7gnglnaa8tn"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://questions/Question.gd" id="1_4t1bq"]
+
+[resource]
+script = ExtResource("1_4t1bq")
+question = "На рачунару постојe инсталирана два оперативна система Windows 8.1 i Windows 10. Да бисте конфигурисали рачунар да Windows 10 користи само 4GB RAM меморије, покренућете команду:"
+a = "bcdboot.exe"
+b = "bcdedit.exe"
+c = "bootcfg.exe"
+d = "bootim.exe"
+e = "bootsect.exe"
+f = "diskpart.exe"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

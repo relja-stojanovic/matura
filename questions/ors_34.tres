@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://b7vvr3nkwjjuf"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://questions/Question.gd" id="1_ed57g"]
+
+[resource]
+script = ExtResource("1_ed57g")
+question = "Визуелном провером компоненти рачунара, можемо наслутити неке од узрока појединих кварова. Навести могуће видљиве неисправности компонената:"
+a = "Недостатак кабла који повезује процесор и оперативну меморију"
+b = "Да ли су компоненте правилно постављене у своје слотове"
+c = "Преглед стања кондезатора"
+d = "Недостатак шрафова за причвршћивање хард дискова"
+e = "Деформације пинова на подножју процесора"
+f = "Запрљаност кућишта"
+answer = Array[int]([1, 2, 5])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

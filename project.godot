@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Matura"
-run/main_scene="uid://bmxvp2mscagbp"
+run/main_scene="uid://c88j2c4ravflp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="uid://cpuhgyngf1xe2"
 

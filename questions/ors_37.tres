@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dx5h4mk0uwseq"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://questions/Question.gd" id="1_ym0y3"]
+
+[resource]
+script = ExtResource("1_ym0y3")
+question = "Корисник се жали да рачунар избацује поруку “BOOTMGR is missing”. Покушавате да репродукујете квар и установили сте да се грешка дешава одмах након POSTa. Изаберите акције које можете предузети у циљу отклањања проблема:"
+a = "опоравићете BOOTMGR користећи Windows Recovery Environment"
+b = "покренућете антивирусни софтвер"
+c = "покренућете команду chkdsk /F /R из конзоле за опоравак"
+d = "покренућете команду bootrec /fixboot"
+e = "искористити опцију Use the last known good configuration при подизању"
+answer = Array[int]([0, 2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

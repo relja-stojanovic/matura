@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dqn7ds31r26sw"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://questions/Question.gd" id="1_x3b54"]
+
+[resource]
+script = ExtResource("1_x3b54")
+question = "У предузећу вршите замену старих монитора новим. Замењене мониторе ћете:"
+a = "оставити у контејнере у којима се одлаже канцеларијски отпад предузећа"
+b = "одвезете мониторе на градску депонију смећа"
+c = "однесете мониторе у центар за рециклажу"
+d = "вратите мониторе произвођачу"
+answer = Array[int]([2])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

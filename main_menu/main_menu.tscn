@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://c88j2c4ravflp"]
+
+[ext_resource type="Script" uid="uid://b7pdfj3tevugd" path="res://main_menu/main_menu.gd" id="1_oa53l"]
+
+[node name="Control" type="Control" unique_id=1158694198]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_oa53l")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=338122990]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 32
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1878693252]
+layout_mode = 2
+
+[node name="RandomQuestion" type="CheckBox" parent="MarginContainer/VBoxContainer" unique_id=1836518108]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "Nasumična pitanja"
+
+[node name="RandomAwnser" type="CheckBox" parent="MarginContainer/VBoxContainer" unique_id=109128716]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "Nasumičan redosled pitanja"
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=972443294]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 32
+text = "Počni"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://dhjylnhcgll8o"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://questions/Question.gd" id="1_3ijfc"]
+
+[resource]
+script = ExtResource("1_3ijfc")
+question = "У предузећу у коме радите одељење Рачуноводства треба да почне са коришћењем процесорски захтевне апликације. Покушавате да утврдите да ли рачунарима у одељењу морате да надоградите процесор. На једном од рачунара покрећете апликацију и у Performance Monitor-у надгледате параметар Procesor -> % Processor Time. Прогласићете процесор за уско грло у систему уколико је вредност овог параметра:
+"
+a = "преко 5%"
+b = "преко 50%"
+c = "преко 60%"
+d = "преко 85%"
+answer = Array[int]([3])
+metadata/_custom_type_script = "uid://d11s7unngcflm"

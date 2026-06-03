@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://bcmfrl11708wf"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://questions/Question.gd" id="1_0cpmi"]
+
+[resource]
+script = ExtResource("1_0cpmi")
+question = "Администратор сте у Трговинском суду. На једном од рачунара на коме је инсталиран оперативни систем Windows 10, на директоријуму C:\\Folder1 смештени су записници са суђења. Од председника суда добијате задатак да морате да:
+
+• пратите ко од корисника приступа овом директоријуму
+• пратите кориснике који мењају и бришу датотеке у овом фолдеру
+Да би се то постигло потребно је:"
+a = "Конфигурисати опцију the Auditing settings за директоријум C:\\Folder1"
+b = "Изабрати опцију Encryption contents to secure data за директоријум C:\\Folder1"
+c = "Конфигурисати параметар групне полисе Audit Policy / Audit directory service access"
+d = "Конфигурисати параметар групне полисе Audit Policy / Audit object access"
+e = "Конфигурисати параметар групне полисе Audit Policy / Audit system events"
+metadata/_custom_type_script = "uid://d11s7unngcflm"

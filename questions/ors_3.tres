@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Question" format=3 uid="uid://cw0didga2e4i6"]
+
+[ext_resource type="Script" uid="uid://d11s7unngcflm" path="res://questions/Question.gd" id="1_l81xn"]
+
+[resource]
+script = ExtResource("1_l81xn")
+question = "Уколико желимо да корисничким налозима у домену, доделимо групне полисе, потребно је да те налоге креирамо у једном од контејнера, у организацији Active Directory Users and Computers базе. Те контејнере називамо:"
+a = "Forest"
+b = "OU- Organizational Unit"
+c = "Foreign Security Principals"
+d = "Computers"
+answer = Array[int]([1])
+metadata/_custom_type_script = "uid://d11s7unngcflm"
