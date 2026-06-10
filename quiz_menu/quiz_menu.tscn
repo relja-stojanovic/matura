@@ -98,10 +98,16 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="SkipButton" type="Button" parent="QuestionWindow" unique_id=1143683471]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 27
+text = "Preskoči"
+
 [node name="QuestionMargin" type="MarginContainer" parent="QuestionWindow" unique_id=380786772]
 layout_mode = 2
 size_flags_vertical = 3
-size_flags_stretch_ratio = 2.0
 theme_override_constants/margin_left = 32
 theme_override_constants/margin_top = 32
 theme_override_constants/margin_right = 32
@@ -134,7 +140,7 @@ theme_override_constants/margin_bottom = 12
 
 [node name="ScrollContainer" type="ScrollContainer" parent="QuestionWindow/AnswerMargin" unique_id=1081059175]
 layout_mode = 2
-vertical_scroll_mode = 0
+vertical_scroll_mode = 4
 
 [node name="Answers" type="VBoxContainer" parent="QuestionWindow/AnswerMargin/ScrollContainer" unique_id=1974089040]
 layout_mode = 2
@@ -462,6 +468,7 @@ theme_override_font_sizes/font_size = 32
 text = "0/0 (ti si 0% ćaci)"
 horizontal_alignment = 1
 
+[connection signal="pressed" from="QuestionWindow/SkipButton" to="." method="_on_skip_button_pressed"]
 [connection signal="pressed" from="QuestionWindow/ButtonMargin/ConfirmButton" to="." method="_on_confirm_button_pressed"]
 [connection signal="pressed" from="CorrectWindow/CorrectMargin/ScrollContainer/VBoxContainer/NextButton" to="." method="_on_next_button_pressed"]
 [connection signal="pressed" from="IncorrectWindow/CorrectMargin/ScrollContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]

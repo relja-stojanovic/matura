@@ -72,3 +72,6 @@ func _on_button_pressed() -> void:
 	Global.play_next()
 	incorrect_window.visible = false
 	question_window.visible = true
+
+func _on_skip_button_pressed() -> void:
+	Global.play_next()

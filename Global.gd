@@ -193,6 +193,7 @@ var question_index: int = -1
 
 var random_question: bool
 var random_awnser: bool
+var question_amount: int
 
 var question: Question 
 var answers_map: Dictionary[Question.Option, String]
@@ -215,8 +216,8 @@ func start(init_root: Root, label: Label, init_buttons: Array[AnswerButton]) -> 
 
 func play_next() -> void:
 	question_index += 1
-	if question_index == questions.size():
-		root.play_end(correct, questions.size())
+	if question_index == question_amount:
+		root.play_end(correct, question_amount)
 		return
 	play(questions[question_index])
 
